@@ -19,6 +19,7 @@ class General_command(commands.Cog):
 
 🏮| __**Général:**__
  `{config.prefix}clear`: Clear les messages.
+ `{config.prefix}unlogin`: Vous déconnecte du Selfbot.
  `{config.prefix}use python / default`: Utilise la Template choisi.""")
             await asyncio.sleep(config.deltime)
             await ctx.delete()
