@@ -9,10 +9,7 @@ try:
     import time
     import asyncio
     import config
-    from Commands.Utils import *
-    from Commands.Helps import *
-    from Commands.Helps import *
-    from Commands.RichPresence import *
+    from Commands import *
     from colorama import Fore, Style, Back
     import discord
     from discord.ext import commands
@@ -21,7 +18,7 @@ try:
 except ImportError:
     import platform
     import sys
-    if platform.system() == 'Windows':
+    if sys.platform == 'win32':
      subprocess.check_call([sys.executable, "-m", "pip", "install", '-r' , 'requirements.txt'])
     else:
      subprocess.check_call([sys.executable, "-m", "pip3", "install", '-r' , 'requirements.txt'])
@@ -32,10 +29,7 @@ except ImportError:
     import time
     import asyncio
     import config
-    from Commands.Utils import *
-    from Commands.Helps import *
-    from Commands.Helps import *
-    from Commands.RichPresence import *
+    from Commands import *
     from colorama import Fore, Style, Back
     import discord
     from discord.ext import commands
@@ -214,6 +208,7 @@ class MainBot(commands.Cog):
     async def stop_command(self, ctx):
         if ctx.author.id in owner_id:
             await ctx.send("🔴 Manager stoppé.")
+            await self.bot.close()
             exit()
 
 
