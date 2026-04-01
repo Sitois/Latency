@@ -1,4 +1,5 @@
 # Latency
+THIS PROJECT IS A PROOF OF CONCEPT, ANYONE CAN MAINTAIN IT OR FORK IT WHILE THIS REPO IS MENTIONNED AS THE BASE.
 A simple Discord Selfbot Manager using discord.py
 
 
