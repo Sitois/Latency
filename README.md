@@ -1,5 +1,5 @@
 # Latency
-THIS PROJECT IS A PROOF OF CONCEPT, ANYONE CAN MAINTAIN IT OR FORK IT WHILE THIS REPO IS MENTIONNED AS THE BASE.
+THIS PROJECT IS A PROOF OF CONCEPT, ANYONE CAN MAINTAIN IT OR FORK IT WHILE THIS REPO IS MENTIONNED AS THE BASE. (by replacing the library to selfcord.py-self and last version of nextcord/discord.py as discord library.)
 A simple Discord Selfbot Manager using discord.py
 
 
